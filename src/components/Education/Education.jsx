@@ -20,13 +20,13 @@ export default function Education() {
 
 const educationData = [
   {
-    degree: "Bachelor of Science in Computer Science & Engineering (CSE)",
+    degree: "BSS",
     institution: "Jagannath University",
     year: "2018",
     result: "CGPA: 3.25 / 4.00",
   },
   {
-    degree: "Master of Science in Computer Science & Engineering (MSE)",
+    degree: "MSS",
     institution: "Jagannath University",
     year: "2016",
     result: "CGPA: 3.25 / 4.00",
