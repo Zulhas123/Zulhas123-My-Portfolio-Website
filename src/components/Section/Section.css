@@ -1,0 +1,36 @@
+.section {
+  padding: 44px 16px;
+}
+
+.section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 22px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.section-head {
+  margin-bottom: 14px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 22px;
+  color: rgba(255,255,255,0.95);
+  letter-spacing: 0.2px;
+}
+
+.section-subtitle {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: rgba(255,255,255,0.68);
+}
+
+.section-body {
+  margin-top: 14px;
+  color: rgba(255,255,255,0.80);
+  font-size: 14px;
+  line-height: 1.65;
+}

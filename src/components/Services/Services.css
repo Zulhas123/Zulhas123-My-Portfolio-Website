@@ -1,0 +1,58 @@
+.services {
+  padding: 5px 0;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.border {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.border .title {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+
+.serv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background: rgba(255,255,255,0.08);
+}
+
+.box i {
+  font-size: 36px;
+  color: #4f8cff;
+  margin-bottom: 15px;
+}
+
+.box .text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.6;
+}

@@ -1,0 +1,30 @@
+import React from "react";
+import "./Footer.css";
+
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer-inner">
+        <div className="footer-left">
+          <div className="footer-title">Your Name</div>
+          <div className="footer-subtitle">© {new Date().getFullYear()} · All rights reserved</div>
+        </div>
+
+        <div className="footer-right">
+          <a className="social" href="https://github.com/" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a className="social" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a className="social" href="https://twitter.com/" target="_blank" rel="noreferrer">
+            X/Twitter
+          </a>
+          <a className="social" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+            YouTube
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}

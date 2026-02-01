@@ -1,0 +1,15 @@
+.key-achievements {
+  padding-left: 10px;
+}
+
+.achievement-list {
+  padding-left: 18px;
+}
+
+.achievement-list li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
